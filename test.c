@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-//Á·Ï°1
-//ÄÜ·ñ´òÓ¡³öhello world
-//ÄÚ´æĞ¹Â©
+//ç»ƒä¹ 1
+//èƒ½å¦æ‰“å°å‡ºhello world
+//å†…å­˜æ³„æ¼
 void GetMemory(char* p)
 {
-	p = (char*)malloc(100);//pÊÇĞÎ²Î
+	p = (char*)malloc(100);//pæ˜¯å½¢å‚
 }
 
 void  Test(void)
 {
 	char* str = NULL;
-	GetMemory(str);//strÊÇÊµ²Î Ã»ÓĞ¸Ä±ä
-	strcpy(str, "hello world");//str»¹ÊÇ¿ÕÖ¸Õë
+	GetMemory(str);//stræ˜¯å®å‚ æ²¡æœ‰æ”¹å˜
+	strcpy(str, "hello world");//strè¿˜æ˜¯ç©ºæŒ‡é’ˆ
 	printf(str);
 }
 int main()
